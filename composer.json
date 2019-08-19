@@ -1,0 +1,46 @@
+{
+    "name": "rivomanana/admin-module",
+    "description": "Admin module based on TCG's Laravel Voyager and nwidart's Laravel modules | TT | Forked from glenwell",
+    "keywords": ["laravel", "admin", "panel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Danns",
+            "email": "dannsj@gmail.com"
+        }
+    ],
+    "type": "laravel-module",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Admin\\Providers\\AdminServiceProvider"
+            ],
+            "aliases": {
+                
+            },
+            "dont-discover": [
+                "tcg/voyager",
+                "intervention/image"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Admin\\": "src"
+        }
+    },
+    "require": {
+        "intervention/imagecache": "^2.3",
+        "laravel/framework": "~5.8.",
+        "nwidart/laravel-modules": "^5.0",
+        "predis/predis": "^1.1",
+        "tcg/voyager": "1.2.*"
+        
+    },
+    "require-dev": {
+        "laravel/framework": "~5.4.36|~5.5.0|~5.6.0|~5.7.0|~5.8.0",
+        "joshbrw/laravel-module-installer": "^0.1.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

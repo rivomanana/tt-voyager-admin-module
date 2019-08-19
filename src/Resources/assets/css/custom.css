@@ -1,0 +1,227 @@
+#dataTable_wrapper .row:nth-of-type(1) .col-sm-6:nth-of-type(1) {
+    padding-left: 30px;
+}
+
+#dataTable_wrapper .row:nth-of-type(1) .col-sm-6:nth-of-type(2) {
+    padding-right: 30px;
+}
+
+#dataTable_wrapper .row:nth-of-type(2) .col-sm-12 {
+    padding: 0 0;
+}
+
+#dataTable_wrapper .row:nth-of-type(3) .col-sm-5 {
+    padding-left: 30px;
+}
+
+#dataTable_wrapper .row:nth-of-type(3) .col-sm-7 {
+    padding-right: 30px;
+}
+
+.px-3 {
+    padding: 0 30px;
+}
+
+.navbar .dropdown.profile .dropdown-menu li.profile-img img.profile-img {
+    margin: 10px;
+    margin-left: 0;
+}
+
+.navbar .dropdown.profile .dropdown-menu h5, .navbar .dropdown.profile .dropdown-menu h6 {
+    margin-bottom: 5px;
+}
+
+.navbar .dropdown.profile .dropdown-menu h5, .navbar .dropdown.profile .dropdown-menu h5 {
+    font-weight: 600;
+}
+
+.dropdown-menu .divider {
+    margin-top: 10px;
+}
+
+.app-container .side-menu .panel.widget a {
+    display: block;
+}
+
+.custom-dimmer {
+    padding: 10px !important;
+    margin-bottom:0 !important;
+    overflow:hidden !important;
+}
+
+.custom-dimmer .dimmer {
+    background: linear-gradient(45deg,rgba(45,53,61,.79) 0,rgba(45,53,61,.2) 100%) !important;
+}
+
+.custom-dimmer .panel-content .row {
+    padding: 0 !important;
+}
+
+.custom-dimmer .panel-content .row .custom-dimmer-link [class*="col-"]{
+    margin-bottom: 0;
+}
+
+.custom-dimmer .panel-content .row .custom-dimmer-link [class*="col-"] i{
+    margin: 0;
+    background: none;
+    font-size: 64px;
+}
+
+.custom-dimmer .panel-content .row .custom-dimmer-link [class*="col-"] h4{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 1em 0;
+}
+
+ul.list-separated > li {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 0.875rem 0;
+    color: #818a91;
+    font-weight: 400;
+}
+ul.list-separated > li .row [class*="col-"] {
+    margin-bottom:0;
+}
+ul.list-separated > li .row .post-key {
+    opacity: 0.6;
+}
+ul.list-separated > li:last-child {
+    border: 0 !important;
+}
+.post-container {
+    padding:15px;
+    font-size: 16px;
+    color: #55595c;
+    font-weight: 400;
+}
+.post-container .post-body {
+    padding-top:10px;
+}
+.post-body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.post-body figcaption {
+    text-align: center;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+    background:#fff !important;
+    color:#62a8ea !important;
+    border-bottom:1px solid #fff !important;
+    top:-1px !important;
+}
+
+.nav-tabs > li a{
+    transition:all 0.3s ease;
+}
+
+.voyager .nav-tabs, .voyager .nav-tabs > li > a:hover {
+    background-color: unset;
+}
+
+.custom-pane {
+    padding: 0 !important;
+}
+
+.nav-tabs > li.active > a:focus{
+    top:0px !important;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.panel .mce-panel {
+    border-left-color: #fff;
+    border-right-color: #fff;
+}
+
+.panel .mce-toolbar,
+.panel .mce-statusbar {
+    padding-left: 20px;
+}
+
+.panel .mce-edit-area,
+.panel .mce-edit-area iframe,
+.panel .mce-edit-area iframe html {
+    padding: 0 10px;
+    min-height: 350px;
+}
+
+.mce-content-body {
+    color: #555;
+    font-size: 14px;
+}
+
+.panel.is-fullscreen .mce-statusbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 200000;
+}
+
+.panel.is-fullscreen .mce-tinymce {
+    height:100%;
+}
+
+.panel.is-fullscreen .mce-edit-area,
+.panel.is-fullscreen .mce-edit-area iframe,
+.panel.is-fullscreen .mce-edit-area iframe html {
+    height: 100%;
+    position: absolute;
+    width: 99%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 100%;
+}
+.stat-icon {
+    display: inline-block !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin-right: 5px;
+    border-radius: 50% !important;
+    background-color: #ed181f;
+}
+
+.panel-accordion {
+    border: none !important;
+    box-shadow: none !important;
+    margin-bottom:10px !important;
+}
+
+.panel-accordion .panel-heading {
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+    padding-top: 0;
+    opacity: 0.6;
+}
+
+.panel-accordion .panel-heading a {
+    text-decoration:none;
+    color: #818a91;
+}
+
+ul.list-regular {
+    padding: 0.875rem 0;
+    color: #818a91;
+    font-weight: 400;
+}
+.seo-highlight {
+    background-color: #ed181f;
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+    display: inline-block;
+    min-width: 15px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 700;
+    vertical-align: middle;
+    border-radius: 4px;
+    padding: 15px;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+}
