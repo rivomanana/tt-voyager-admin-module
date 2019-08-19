@@ -1,5 +1,5 @@
 {
-    "name": "rivomanana/admin-module",
+    "name": "rivomanana/tt-voyager-admin-module",
     "description": "Admin module based on TCG's Laravel Voyager and nwidart's Laravel modules | TT | Forked from glenwell",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
